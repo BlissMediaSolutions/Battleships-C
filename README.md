@@ -1,6 +1,6 @@
 # README #
 
-This project is a VB.Net implementation of the classic Battleship game.
+This project is a C# implementation of the classic Battleship game.
 
 Requirements:
 
