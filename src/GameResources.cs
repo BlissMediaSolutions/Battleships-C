@@ -284,7 +284,7 @@ public static class GameResources
 	private static void FreeSounds()
 	{
 		SoundEffect obj = default(SoundEffect);
-		foreach ( obj in _Sounds.Values) {
+		foreach (obj in _Sounds.Values) {
 			Audio.FreeSoundEffect(obj);
 		}
 	}
@@ -292,7 +292,7 @@ public static class GameResources
 	private static void FreeMusic()
 	{
 		Music obj = default(Music);
-		foreach ( obj in _Music.Values) {
+		foreach (obj in _Music.Values) {
 			Audio.FreeMusic(obj);
 		}
 	}
