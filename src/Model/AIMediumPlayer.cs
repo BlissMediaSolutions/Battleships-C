@@ -1,4 +1,10 @@
-
+/*
+This is a TYPE of AI Player. 
+Medium player will aim to destroy a ship if it hits a ship. 
+Does not understand multiple ships. Once a ship has been found 
+it will target that same ship until destroyed. Is able to 
+randomly deploy ships and generate coordinates to shoot at target
+*/
 using Microsoft.VisualBasic;
 using System;
 using System.Collections;

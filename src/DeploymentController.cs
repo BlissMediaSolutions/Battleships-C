@@ -1,3 +1,9 @@
+/*
+Responsible for managing the 
+interactions between the user 
+and the game when he game is 
+in the deployment phase
+*/
 
 using Microsoft.VisualBasic;
 using System;

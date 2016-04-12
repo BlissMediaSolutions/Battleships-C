@@ -1,4 +1,6 @@
-
+/*
+This File is a type of player. Able to randomly deploy ships and also generate random coordinates to fire at tiles
+*/
 using Microsoft.VisualBasic;
 using System;
 using System.Collections;

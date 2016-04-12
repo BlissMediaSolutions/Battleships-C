@@ -1,4 +1,6 @@
-
+/*
+Controls the collection and displaying of players high scores
+*/
 using Microsoft.VisualBasic;
 using System;
 using System.Collections;

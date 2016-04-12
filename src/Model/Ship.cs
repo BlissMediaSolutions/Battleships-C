@@ -1,4 +1,7 @@
-
+/*
+Changes the view of a grid so that if a 
+ship is presented it changes the view into a sea tile as opposed to a ship tile
+*/
 using Microsoft.VisualBasic;
 using System;
 using System.Collections;

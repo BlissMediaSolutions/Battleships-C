@@ -1,3 +1,9 @@
+/*
+This file includes methods 
+that allow for drawing and 
+interacting of the users 
+mouse when inside the game
+*/
 
 using Microsoft.VisualBasic;
 using System;

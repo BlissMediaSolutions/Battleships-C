@@ -1,3 +1,7 @@
+/*
+File controls the players grid and provides ability to view enemy grid. 
+File will check if all ships are deployed and if all ships are destroyed.
+*/
 
 using Microsoft.VisualBasic;
 using System;

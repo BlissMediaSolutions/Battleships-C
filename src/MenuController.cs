@@ -1,4 +1,11 @@
-
+/*
+File controls the drawing of and user interaction 
+with the menus inside the game. 
+Includes:
+	Main Menu
+	Game Menu 
+	Settings menu
+*/
 using Microsoft.VisualBasic;
 using System;
 using System.Collections;

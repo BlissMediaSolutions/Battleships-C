@@ -1,4 +1,8 @@
-
+/*
+Responsible for managing the 
+interactions between the user 
+and the game once a game has ended
+*/
 using Microsoft.VisualBasic;
 using System;
 using System.Collections;
