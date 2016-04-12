@@ -19,7 +19,7 @@ public class SeaGrid : ISeaGrid
 	private const int _WIDTH = 10;
 
 	private const int _HEIGHT = 10;
-	private Tile[,] _GameTiles; //= new Tile[Width, Height];
+	private Tile[,] _GameTiles; // = new Tile[Width, Height];
 	private Dictionary<ShipName, Ship> _Ships;
 
 	private int _ShipsKilled = 0;
@@ -83,6 +83,7 @@ public class SeaGrid : ISeaGrid
 	/// </summary>
 	public SeaGrid(Dictionary<ShipName, Ship> ships)
 	{
+		_GameTiles = new Tile[Width, Height];
 		//fill array with empty Tiles
 		int i = 0;
 		for (i = 0; i <= Width - 1; i++) {
