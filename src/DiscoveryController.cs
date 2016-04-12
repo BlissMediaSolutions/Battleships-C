@@ -1,4 +1,9 @@
-
+/*
+Responsible for managing the 
+interactions between the user 
+and the game when in the battle 
+phase of a game
+*/
 using Microsoft.VisualBasic;
 using System;
 using System.Collections;

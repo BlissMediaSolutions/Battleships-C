@@ -1,4 +1,15 @@
-
+/*
+This is a TYPE of AI player. 
+The HARD player type is the hardest of AI settings. 
+This AI understands the directions of ships and if 
+it hits 2 consecutive ship tiles it will keep 
+shooting to destroy ship. If ship is not destroyed, 
+AI will shoot in opposite direction. 
+If ship is still not destroyed AI understands it has 
+hit 2 ships and will shoot all surrounding tiles until 
+battleships are sunk. Is able to randomly deploy ships 
+and generate coordinates to shoot at target.
+*/
 using Microsoft.VisualBasic;
 using System;
 using System.Collections;

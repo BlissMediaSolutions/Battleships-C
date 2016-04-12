@@ -1,4 +1,7 @@
-
+/*
+Provides the grid in which a player deploys their ship onto. 
+This grid is viewbale via ISeaGrid interface as a read only grid
+*/
 using Microsoft.VisualBasic;
 using System;
 using System.Collections;

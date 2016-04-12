@@ -1,4 +1,11 @@
-
+/*
+This file controls a major part of the game, 
+including configuration and whilst the game is running. 
+Adds two players to the game and ensures that both players 
+have deployed all of their ships before starting the game. 
+Allows players to shoot and swap turns between players. 
+Checks to see if players are destroyed.
+*/
 using Microsoft.VisualBasic;
 using System;
 using System.Collections;

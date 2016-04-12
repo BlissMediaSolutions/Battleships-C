@@ -1,4 +1,6 @@
-
+/*
+AttackResult File returns the outcome of a fired shot. E.g. Hit/miss an enemy battleship
+*/
 using Microsoft.VisualBasic;
 using System;
 using System.Collections;

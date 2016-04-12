@@ -1,4 +1,6 @@
-
+/*
+File contains enumerations for different levels of AI. Easy, Medium & Hard
+*/
 using Microsoft.VisualBasic;
 using System;
 using System.Collections;

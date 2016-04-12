@@ -1,4 +1,11 @@
-
+/*
+This is an enumeration file that hold the state for any given tile so 
+that a player can visually understand the state of a tile 
+	• Sea: The player can see the Sea 
+	• Miss: The viewer knows the site was attacked but nothing hit 
+	• Ship: Viewer knows there is a ship at this tile 
+	• Hit: Viewer knows that the tile was attacked something was hit
+*/
 using Microsoft.VisualBasic;
 using System;
 using System.Collections;

@@ -1,4 +1,10 @@
-
+/*
+Responsible for controlling the game, 
+managing the input from the user and 
+displaying the current STATE of the game. 
+The State of the game is based off the states 
+listed in GameState
+*/
 using Microsoft.VisualBasic;
 using System;
 using System.Collections;

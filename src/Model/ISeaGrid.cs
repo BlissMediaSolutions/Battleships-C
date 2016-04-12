@@ -1,4 +1,7 @@
-
+/*
+Allows for each player to see and attacked their opponents grid. 
+This file is the read only interface of the opposing player’s grid.
+*/
 using Microsoft.VisualBasic;
 using System;
 using System.Collections;

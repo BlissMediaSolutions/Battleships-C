@@ -1,4 +1,12 @@
-
+/*
+Enumeration for the different results from a players attack. 
+Types are: 
+	Hit: Player Hit Something 
+	Miss: The player missed something 
+	Destroyed: Ship Destroyed 
+	ShotAlready: Location already shot at 
+	GameOver: Player has destroyed all enemy ships
+*/
 using Microsoft.VisualBasic;
 using System;
 using System.Collections;

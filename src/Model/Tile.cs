@@ -1,3 +1,8 @@
+/*
+Holds date for each tile on the grid. 
+A tile knows its loation on the grid, 
+If a ship is on it and if t has been shot.
+*/
 
 using Microsoft.VisualBasic;
 using System;

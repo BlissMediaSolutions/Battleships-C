@@ -1,3 +1,8 @@
+/*
+Provides all of the resources used for the battleship game.
+Including: Fonts, Images, Sounds
+Responsible for loading these resources in the games memory
+*/
 
 using Microsoft.VisualBasic;
 using System;

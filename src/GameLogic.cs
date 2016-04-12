@@ -1,3 +1,11 @@
+/*
+Contains Main method, 
+Entry point for the code on 
+launch, Opens a game window, 
+loads resources and begins game 
+until user sends a request to quit. 
+Handles release of resources and stopping of running services
+*/
 
 using Microsoft.VisualBasic;
 using System;

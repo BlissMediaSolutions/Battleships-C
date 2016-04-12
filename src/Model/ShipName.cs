@@ -1,4 +1,12 @@
-
+/*
+A enumeration for all the different types of ships in the game. Holds the name along side the amount of hits it can take. 
+	• None: 0 
+	• Tug: 1 
+	• Submarine: 2 
+	• Destroyer: 3 
+	• Battleship: 4 
+	• AircarftCarrier: 5
+*/
 using Microsoft.VisualBasic;
 using System;
 using System.Collections;
