@@ -9,7 +9,6 @@ using Microsoft.VisualBasic;
 using System;
 using System.Collections;
 using System.Collections.Generic;
-//using System.Data;
 using System.Diagnostics;
 using SwinGameSDK;
 
@@ -19,16 +18,32 @@ using SwinGameSDK;
 /// game.
 /// </summary>
 public static class GameController
-{
-
+{	
+	/// <summary>
+	/// The game instance.
+	/// </summary>
 	private static BattleShipsGame _theGame;
+	
+	/// <summary>
+	/// The player.
+	/// </summary>
 	private static Player _human;
 
+	/// <summary>
+	/// The ai.
+	/// </summary>
 	private static AIPlayer _ai;
-
+	
+	/// <summary>
+	/// The game state - what screen is currently active.
+	/// </summary>
 	private static Stack<GameState> _state = new Stack<GameState>();
 
+	/// <summary>
+	/// The ai setting (difficulty).
+	/// </summary>
 	private static AIOption _aiSetting;
+	
 	/// <summary>
 	/// Returns the current state of the game, indicating which screen is
 	/// currently being used
@@ -57,6 +72,9 @@ public static class GameController
 		get { return _ai; }
 	}
 
+	/// <summary>
+	/// Initializes the game controller.
+	/// </summary>
 	static GameController()
 	{
 		//bottom state will be quitting. If player exits main menu then the game is over
@@ -105,7 +123,6 @@ public static class GameController
 	/// <summary>
 	/// Stops listening to the old game once a new game is started
 	/// </summary>
-
 	private static void EndGame()
 	{
 		//RemoveHandler _human.PlayerGrid.Changed, AddressOf GridChanged
@@ -125,6 +142,12 @@ public static class GameController
 		SwinGame.RefreshScreen();
 	}
 
+	/// <summary>
+	/// Plays the hit sequence.
+	/// </summary>
+	/// <param name="row">Row selected.</param>
+	/// <param name="column">Column selected.</param>
+	/// <param name="showAnimation">If set to <c>true</c> show animation.</param>
 	private static void PlayHitSequence(int row, int column, bool showAnimation)
 	{
 		if (showAnimation) {
@@ -136,6 +159,12 @@ public static class GameController
 		UtilityFunctions.DrawAnimationSequence();
 	}
 
+	/// <summary>
+	/// Plays the miss sequence.
+	/// </summary>
+	/// <param name="row">Row selected.</param>
+	/// <param name="column">Column selected.</param>
+	/// <param name="showAnimation">If set to <c>true</c> show animation.</param>
 	private static void PlayMissSequence(int row, int column, bool showAnimation)
 	{
 		if (showAnimation) {

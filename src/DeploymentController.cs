@@ -9,7 +9,6 @@ using Microsoft.VisualBasic;
 using System;
 using System.Collections;
 using System.Collections.Generic;
-//using System.Data;
 using System.Diagnostics;
 using SwinGameSDK;
 
@@ -40,9 +39,17 @@ static class DeploymentController
 	private const int DIR_BUTTONS_WIDTH = 47;
 
 	private const int TEXT_OFFSET = 5;
+	
+	/// <summary>
+	/// The current direction of placed ship; defaulted to UpDown.
+	/// </summary>
 	private static Direction _currentDirection = Direction.UpDown;
 
+	/// <summary>
+	/// The selected ship to be placed; defaulted to Tug ship.
+	/// </summary>
 	private static ShipName _selectedShip = ShipName.Tug;
+	
 	/// <summary>
 	/// Handles user input for the Deployment phase of the game.
 	/// </summary>

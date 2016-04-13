@@ -11,10 +11,15 @@ using Microsoft.VisualBasic;
 using System;
 using System.Collections;
 using System.Collections.Generic;
-//using System.Data;
 using System.Diagnostics;
 using SwinGameSDK;
 
+/// <summary>
+/// The GameLogic is responsible for intialising and 
+/// continuing the game loop.
+/// Continuing for as long as the graphics window is open
+/// or the GameState is quitting.
+/// </summary>
 static class GameLogic
 {
 	public static void Main()
