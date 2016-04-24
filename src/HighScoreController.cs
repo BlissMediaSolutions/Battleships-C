@@ -98,7 +98,8 @@ static class HighScoreController
 	/// 
 	/// Where NNN is the name and SSS is the score
 	/// </remarks>
-	private static void SaveScores()
+	public static void SaveScores()
+	//private static void SaveScores()
 	{
 		string filename = null;
 		filename = SwinGame.PathToResource("highscores.txt");
@@ -188,6 +189,7 @@ static class HighScoreController
 
 				UtilityFunctions.DrawBackground();
 				DrawHighScores();
+				SaveScores();
 				SwinGame.DrawText("Name: ", Color.White, GameResources.GameFont("Courier"), SCORES_LEFT, ENTRY_TOP);
 				SwinGame.RefreshScreen();
 			}
@@ -201,6 +203,8 @@ static class HighScoreController
 			_Scores.RemoveAt(_Scores.Count - 1);
 			_Scores.Add(s);
 			_Scores.Sort();
+			//SaveScores ();
+
 
 			GameController.EndCurrentState();
 		}
