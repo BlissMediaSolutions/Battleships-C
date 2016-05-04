@@ -351,24 +351,31 @@ public static class GameController
 		switch (CurrentState) {
 			case GameState.ViewingMainMenu:
 				MenuController.DrawMainMenu();
+Audio.ResumeMusic();
 				break;
 			case GameState.ViewingGameMenu:
 				MenuController.DrawGameMenu();
+Audio.ResumeMusic();
 				break;
 			case GameState.AlteringSettings:
 				MenuController.DrawSettings();
+Audio.ResumeMusic();
 				break;
 			case GameState.Deploying:
 				DeploymentController.DrawDeployment();
+Audio.ResumeMusic();
 				break;
 			case GameState.Discovering:
 				DiscoveryController.DrawDiscovery();
+Audio.PauseMusic();
 				break;
 			case GameState.EndingGame:
 				EndingGameController.DrawEndOfGame();
+Audio.ResumeMusic();
 				break;
 			case GameState.ViewingHighScores:
 				HighScoreController.DrawHighScores();
+Audio.ResumeMusic();
 				break;
 		}
 
