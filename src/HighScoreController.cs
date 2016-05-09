@@ -189,7 +189,7 @@ static class HighScoreController
 
 				UtilityFunctions.DrawBackground();
 				DrawHighScores();
-				sSaveScores();
+				SaveScores();
 				SwinGame.DrawText("Name: ", Color.White, GameResources.GameFont("Courier"), SCORES_LEFT, ENTRY_TOP);
 				SwinGame.RefreshScreen();
 			}
